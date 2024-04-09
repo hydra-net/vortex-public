@@ -1,0 +1,20 @@
+{
+    "settings": {
+        "cancel_orders_on_start": true,
+        "cancel_orders_on_exit": true
+    },
+    "strategies": [
+        {
+            "grid": {
+                "exchange": "hydranet",
+                "pair": "HDN_AUSDT",
+                "grid_profit": 0.02,
+                "grid_amount": 250,
+                "min_price": 0.047,
+                "max_price": 0.053,
+                "get_mid_price_from_min_max_avg": true
+            }
+        } 
+    ]
+    }
+    
